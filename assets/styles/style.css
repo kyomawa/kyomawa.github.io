@@ -270,9 +270,7 @@ nav .icon-burger .line {
     background-color: rgba(34, 76, 190, 0.904);
     display: flex;
     justify-content: flex-end;
-    position: relative;
-    height: auto;
-
+    height: auto
 }
 
 .footerp {
@@ -285,9 +283,6 @@ nav .icon-burger .line {
     justify-content: space-between;
 }
 
-.footerp p {
-    margin-top: -1%;
-}
 
 .footerdiv {
     height: 80px;
