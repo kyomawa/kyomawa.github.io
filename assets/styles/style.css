@@ -344,6 +344,10 @@ nav .icon-burger .line {
         width: auto;
     }
 
+    #title-projet {
+        font-size: 1.85rem;
+    }
+
 }
 
 @media screen and (max-width: 839px) {
@@ -366,17 +370,23 @@ nav .icon-burger .line {
 
 }
 
-@media screen and (max-width: 831px) {
-    .projet h2 {
-        font-size: 1.4rem;
-    }
-}
-
 @media screen and (max-width: 886px) {
     .projet h2 {
         font-size: 1.35rem;
     }
 }
+
+@media screen and (max-width: 831px) {
+    .projet h2 {
+        font-size: 1.4rem;
+    }
+
+    #title-projet {
+        font-size: 1.55rem;
+    }
+}
+
+
 
 @media screen and (max-width: 771px) {
     .projet-suite {
@@ -409,6 +419,10 @@ nav .icon-burger .line {
         height: 300px;
         width: auto;
     }
+
+    #title-projet {
+        font-size: 1.45rem;
+    }
 }
 
 @media screen and (max-width: 651px) {
@@ -426,6 +440,10 @@ nav .icon-burger .line {
 @media screen and (max-width: 609px) {
     .projet h2 {
         font-size: 1.05rem;
+    }
+
+    #title-projet {
+        font-size: 1.35rem;
     }
 }
 
@@ -539,6 +557,10 @@ nav .icon-burger .line {
     .projet {
         font-size: 0.75rem;
     }
+
+    #title-projet {
+        font-size: 1.15rem;
+    }
 }
 
 @media screen and (max-width: 538px) {
@@ -568,6 +590,10 @@ nav .icon-burger .line {
 
     .projet {
         font-size: 0.6rem;
+    }
+
+    #title-projet {
+        font-size: 1.05rem;
     }
 }
 
@@ -643,6 +669,10 @@ nav .icon-burger .line {
     .projet {
         font-size: 0.5rem;
     }
+
+    #title-projet {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (max-width: 348px) {
@@ -714,5 +744,9 @@ nav .icon-burger .line {
 
     .projet {
         font-size: 0.425rem;
+    }
+
+    #title-projet {
+        font-size: 0.9rem;
     }
 }
