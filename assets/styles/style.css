@@ -269,8 +269,8 @@ nav .icon-burger .line {
     margin: 0;
     background-color: rgba(34, 76, 190, 0.904);
     display: flex;
-    justify-content: flex-end;
-    height: auto
+    height: auto;
+    align-content: center;
 }
 
 .footerp {
@@ -301,10 +301,11 @@ nav .icon-burger .line {
 
 
 .move {
+    display: flex;
     width: 50%;
-    align-items: center;
     color: white;
-    margin: 2% 0 2% 1%;
+    align-items: center;
+    padding-left: 2%;
 }
 
 @media screen and (max-width: 1890px) {
