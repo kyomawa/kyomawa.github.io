@@ -141,7 +141,7 @@ nav .icon-burger .line {
 .fond {
     background-image: url("/assets/img/1920.jpg");
     background-attachment: fixed;
-    height: 65vh;
+    height: 55vh;
     width: 100%;
 }
 
@@ -642,4 +642,107 @@ nav .icon-burger .line {
     #title-projet {
         font-size: 0.9rem;
     }
+}
+
+/* LA PARTIE CONTACT */
+
+.contact__main {
+    background-color: rgba(8, 33, 104, 0.918);
+    padding: 2% 2%;
+
+}
+
+
+.contact__fond {
+    background-color: rgba(34, 76, 190, 0.904);
+    display: flex;
+    border-radius: 10px;
+}
+
+.contact__img {
+    padding: 0.5% 0.5% 0.25% 0.5%;
+    width: 60%;
+}
+
+.contact__img img {
+    border-radius: 10px;
+}
+
+.contact__form {
+    width: 40%;
+    height: auto;
+    padding-top: 1.05%;
+    padding-bottom: auto;
+}
+
+.contact__form form label,
+.contact__form form h2 {
+    color: #fff;
+}
+
+.contact__form form h2 {
+    font-size: 2.5rem;
+    margin-left: 5%;
+}
+
+.contact__form form button {
+    color: #fff;
+    background-color: rgba(8, 33, 104, 0.918);
+    border-radius: 15px;
+    width: 300px;
+    height: 37.5px;
+    margin-top: 2%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 7%;
+
+}
+
+.contact__form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact__form input {
+    border-radius: 15px;
+    width: 400px;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.contact__form textarea {
+    border-radius: 15px;
+    width: 390px;
+    margin-left: 10px;
+}
+
+.form__div4 {
+    display: flex;
+}
+
+.form__div4 label {
+    margin-left: -25px;
+}
+
+.mail__fond {
+    background-color: rgba(8, 33, 104, 0.918);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mail__fond h1 {
+    padding: 0;
+    margin: 0;
+    padding-top: 0.75%;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.mail__fond img {
+    border-radius: 350px;
+    padding: 1% 5% 2% 5%;
 }
